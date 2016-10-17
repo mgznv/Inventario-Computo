@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title ControlEquipos
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  %body
+    %nav
+      .nav-wrapper.orange.darken-3
+        .container
+          %li.brand-logo Versa
+    = yield

@@ -1,0 +1,2 @@
+json.extract! device, :id, :responsable, :area, :departamento, :marca, :modelo, :serie, :nombre_proveedor, :factura, :fecha_factura, :pdf, :ip, :mac_address, :procesador, :memoria, :disco_duro, :version_de_windows, :tipo_de_licencia, :numero_de_licencia_windows, :pdf_factura_windows, :version_de_office, :no_de, :licencia_office, :pdf_office, :antivirus, :clave_licencia_antivirus, :expira, :usuario_anterior, :tipo_de_dispositivo, :created_at, :updated_at
+json.url device_url(device, format: :json)

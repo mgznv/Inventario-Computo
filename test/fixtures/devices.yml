@@ -1,0 +1,61 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  responsable: MyString
+  area: MyString
+  departamento: MyString
+  marca: MyString
+  modelo: MyString
+  serie: MyString
+  nombre_proveedor: MyString
+  factura: MyString
+  fecha_factura: 2016-10-17
+  pdf: MyString
+  ip: MyString
+  mac_address: MyString
+  procesador: MyString
+  memoria: MyString
+  disco_duro: MyString
+  version_de_windows: MyString
+  tipo_de_licencia: MyString
+  numero_de_licencia_windows: MyString
+  pdf_factura_windows: MyString
+  version_de_office: MyString
+  no_de: MyString
+  licencia_office: MyString
+  pdf_office: MyString
+  antivirus: MyString
+  clave_licencia_antivirus: MyString
+  expira: 2016-10-17
+  usuario_anterior: MyString
+  tipo_de_dispositivo: MyString
+
+two:
+  responsable: MyString
+  area: MyString
+  departamento: MyString
+  marca: MyString
+  modelo: MyString
+  serie: MyString
+  nombre_proveedor: MyString
+  factura: MyString
+  fecha_factura: 2016-10-17
+  pdf: MyString
+  ip: MyString
+  mac_address: MyString
+  procesador: MyString
+  memoria: MyString
+  disco_duro: MyString
+  version_de_windows: MyString
+  tipo_de_licencia: MyString
+  numero_de_licencia_windows: MyString
+  pdf_factura_windows: MyString
+  version_de_office: MyString
+  no_de: MyString
+  licencia_office: MyString
+  pdf_office: MyString
+  antivirus: MyString
+  clave_licencia_antivirus: MyString
+  expira: 2016-10-17
+  usuario_anterior: MyString
+  tipo_de_dispositivo: MyString

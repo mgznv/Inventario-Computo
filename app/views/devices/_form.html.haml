@@ -1,0 +1,123 @@
+= form_for(@device) do |f|
+  - if @device.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@device.errors.count, "error")
+        prohibited this device from being saved:
+      %ul
+        - @device.errors.full_messages.each do |message|
+          %li= message
+  .field
+    = f.label :responsable
+    %br/
+    = f.text_field :responsable
+  .field
+    = f.label :area
+    %br/
+    = f.text_field :area
+  .field
+    = f.label :departamento
+    %br/
+    = f.text_field :departamento
+  .field
+    = f.label :marca
+    %br/
+    = f.text_field :marca
+  .field
+    = f.label :modelo
+    %br/
+    = f.text_field :modelo
+  .field
+    = f.label :serie
+    %br/
+    = f.text_field :serie
+  .field
+    = f.label :nombre_proveedor
+    %br/
+    = f.text_field :nombre_proveedor
+  .field
+    = f.label :factura
+    %br/
+    = f.text_field :factura
+  .field
+    = f.label :fecha_factura
+    %br/
+    = f.date_select :fecha_factura
+  .field
+    = f.label :pdf
+    %br/
+    = f.text_field :pdf
+  .field
+    = f.label :ip
+    %br/
+    = f.text_field :ip
+  .field
+    = f.label :mac_address
+    %br/
+    = f.text_field :mac_address
+  .field
+    = f.label :procesador
+    %br/
+    = f.text_field :procesador
+  .field
+    = f.label :memoria
+    %br/
+    = f.text_field :memoria
+  .field
+    = f.label :disco_duro
+    %br/
+    = f.text_field :disco_duro
+  .field
+    = f.label :version_de_windows
+    %br/
+    = f.text_field :version_de_windows
+  .field
+    = f.label :tipo_de_licencia
+    %br/
+    = f.text_field :tipo_de_licencia
+  .field
+    = f.label :numero_de_licencia_windows
+    %br/
+    = f.text_field :numero_de_licencia_windows
+  .field
+    = f.label :pdf_factura_windows
+    %br/
+    = f.text_field :pdf_factura_windows
+  .field
+    = f.label :version_de_office
+    %br/
+    = f.text_field :version_de_office
+  .field
+    = f.label :no_de
+    %br/
+    = f.text_field :no_de
+  .field
+    = f.label :licencia_office
+    %br/
+    = f.text_field :licencia_office
+  .field
+    = f.label :pdf_office
+    %br/
+    = f.text_field :pdf_office
+  .field
+    = f.label :antivirus
+    %br/
+    = f.text_field :antivirus
+  .field
+    = f.label :clave_licencia_antivirus
+    %br/
+    = f.text_field :clave_licencia_antivirus
+  .field
+    = f.label :expira
+    %br/
+    = f.date_select :expira
+  .field
+    = f.label :usuario_anterior
+    %br/
+    = f.text_field :usuario_anterior
+  .field
+    = f.label :tipo_de_dispositivo
+    %br/
+    = f.text_field :tipo_de_dispositivo
+  .actions
+    = f.submit

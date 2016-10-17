@@ -1,0 +1,87 @@
+%p#notice= notice
+%p
+  %strong Responsable:
+  = @device.responsable
+%p
+  %strong Area:
+  = @device.area
+%p
+  %strong Departamento:
+  = @device.departamento
+%p
+  %strong Marca:
+  = @device.marca
+%p
+  %strong Modelo:
+  = @device.modelo
+%p
+  %strong Serie:
+  = @device.serie
+%p
+  %strong Nombre proveedor:
+  = @device.nombre_proveedor
+%p
+  %strong Factura:
+  = @device.factura
+%p
+  %strong Fecha factura:
+  = @device.fecha_factura
+%p
+  %strong Pdf:
+  = @device.pdf
+%p
+  %strong Ip:
+  = @device.ip
+%p
+  %strong Mac address:
+  = @device.mac_address
+%p
+  %strong Procesador:
+  = @device.procesador
+%p
+  %strong Memoria:
+  = @device.memoria
+%p
+  %strong Disco duro:
+  = @device.disco_duro
+%p
+  %strong Version de windows:
+  = @device.version_de_windows
+%p
+  %strong Tipo de licencia:
+  = @device.tipo_de_licencia
+%p
+  %strong Numero de licencia windows:
+  = @device.numero_de_licencia_windows
+%p
+  %strong Pdf factura windows:
+  = @device.pdf_factura_windows
+%p
+  %strong Version de office:
+  = @device.version_de_office
+%p
+  %strong No de:
+  = @device.no_de
+%p
+  %strong Licencia office:
+  = @device.licencia_office
+%p
+  %strong Pdf office:
+  = @device.pdf_office
+%p
+  %strong Antivirus:
+  = @device.antivirus
+%p
+  %strong Clave licencia antivirus:
+  = @device.clave_licencia_antivirus
+%p
+  %strong Expira:
+  = @device.expira
+%p
+  %strong Usuario anterior:
+  = @device.usuario_anterior
+%p
+  %strong Tipo de dispositivo:
+  = @device.tipo_de_dispositivo
+= link_to 'Edit', edit_device_path(@device)
+= link_to 'Back', devices_path
